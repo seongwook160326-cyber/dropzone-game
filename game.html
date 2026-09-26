@@ -2712,7 +2712,7 @@
           if (dx * dx + ady * ady + dz * dz < .5 * e.scl * e.scl) {
             b.active = false; b.mesh.visible = false;
             S.hits++;
-            e.hp -= 34;
+            e.hp -= 100;
             e.hpFront.scale.x = Math.max(.001, e.hp / e.maxhp);
             applyFlash(e); /* shared red flash material swap */
             e.flashT = .1;
